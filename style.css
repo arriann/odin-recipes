@@ -1,7 +1,19 @@
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+img.landingimg {
+    height: auto;
+    width: 500px;
 }
 
 h1 {
+    font-size: 70px;
     color: #f535aa;
+}
+
+h2 {
+    font-size: 30px;
+    color: blue;
 }
