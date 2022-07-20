@@ -1,12 +1,145 @@
 * {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;
+    font-family: monospace, Arial, Helvetica, sans-serif;
 }
 
-img.landingimg {
-    height: auto;
-    width: 500px;
+.header {
+  color: #ffe4f5;
+  background-color: #f535aa;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
+
+li {
+  text-decoration: none;
+  list-style: none;
+}
+
+.links {
+  gap: 40px;
+  display: flex;
+  flex: row;
+}
+
+a {
+  text-decoration: none;
+  color: #ffe4f5;
+  font-weight: 700;
+  font-size: 40px;
+}
+.links a {
+  font-size: 20px;
+}
+
+.main {
+  background-color: #f535aa;
+  padding: 20px;
+}
+
+.mainimg {
+  max-width: 100%;
+  height: auto;;
+}
+
+/*
+.search-container {
+  max-width: 600px;
+  margin: 10px auto;
+  display: flex;
+  justify-self: flex-end;
+}
+input[type="text"] {
+  display: block;
+  width: calc(100% - 24px); /*20px [ left & Right ] padding + 4px border [ left & Right ]  
+  font-size: 18px;
+  font-weight: 600;
+  color:#f535aa;
+  padding: 10px;
+  border: 2px solid white;
+} 
+
+*/
+
+.testimonials {
+  color:#f535aa;
+  background-color:#ffe4f5;
+  padding: 100px 250px
+}
+
+.content {
+  font-size: 26px;
+  text-align: justify;
+}
+
+.author {
+  font-weight: 700;
+  font-size: 24px;;
+}
+
+.cta {
+  background-color: #f535aa;
+  padding: 20px;
+  margin: 50px 250px;
+  border-radius: 20px;
+  gap: 20px;
+  display:flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+
+}
+
+.sub {
+  display: flex;
+  justify-content: center;
+
+}
+
+.action {
+  color: #f9faf8;
+  font-size: 20px;
+  text-align: center;
+
+
+}
+button {
+  font-size: 16px;
+  font-weight: bold;
+  position: relative;
+  color:#ffe4f5;
+  background-color: #f535aa;
+  border: 2px solid #f9faf8;
+  border-radius: 9px;
+  padding: 8px 25px;
+}
+
+.popular {
+  gap: 50px;
+  border: 10px solid #f535aa;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+}
+
+.popular a {
+  color: #f535aa;
+  font-size: 25px;
+}
+
+
+
+
+
+.footer {
+  color: #f535aa;
+  background-color: #ffe4f5;
+  padding: 15px;
+  display: flex;
+  justify-content: center
+}
+
 
 h1 {
     font-size: 70px;
