@@ -154,25 +154,59 @@ button {
   justify-content: center
 }
 
-button {
-  font-size: 16px;
-  font-weight: bold;
-  position: relative;
-  color:#ffe4f5;
-  background-color: #f535aa;
-  border: 2px solid #f9faf8;
-  border-radius: 9px;
-  padding: 8px 25px;
-}
+/*cocktails*/
 
-h1 {
-    font-size: 70px;
-    color: #f535aa;
+.cocktails {
+  text-align: center;
 }
 
 .cocktailname {
-    color: darkmagenta;
+  margin: 10px;
+  padding: 10px;
 }
+
+.cockimg {
+  width: 800px;
+  height: auto;
+  border: 10px solid #f535aa;
+  border-radius: 8px;
+  margin: 20px;
+}
+
+.description {
+  padding: 10px;
+}
+
+.description, .ingredients, .method {
+  color: #f535aa;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.list {
+  color: #ffe4f5;
+  font-size: 22px;
+  font-weight: 400;
+
+}
+
+.cocktails li {
+  color: #f535aa;
+  font-size: 22px;
+  font-weight: 400;
+ 
+}
+
+.cockmain {
+  background-color: #ffe4f5;
+  padding: 20px;
+}
+
+h1 {
+    font-size: 40px;
+    color: #f535aa;
+}
+
 
 h2 {
     font-size: 30px;
@@ -181,7 +215,7 @@ h2 {
 
 h3 {
     font-size: 26px;
-    color: orange;
+    color: #f535aa;
 }
 
 h4 {
@@ -191,7 +225,10 @@ h4 {
 }
 
 li {
-    color: red;
+    font-size: 20px;
+    color: #f535aa;
+    text-align: center;
+
 }
 
 /*
